@@ -27,7 +27,9 @@ document.getElementById("btn2").addEventListener("click", () => {
 // Ao clicar no botao, esconda o elemento #texto3
 //
 // Dica: use .style.display = "none"
-
+document.getElementById("btn3").addEventListener("click", () => {
+    document.getElementById("texto3").style.display = "none";
+   })
 
 
 // ---------- Exercicio 4 ----------
